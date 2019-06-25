@@ -338,10 +338,13 @@ MonoBehaviour:
   LeftLine: -10
   RightLine: 10
   ShotZ: -5
-  ShotHeight: 0.3
-  ShotAngleStart: 0.35
-  ShotAngleEnd: 0.45
-  ShotVerocity: 1
+  ShotHeight: 0.5
+  ShotAngleStart: 0.39
+  ShotAngleEnd: 0.44
+  ShotVerocity: 3
+  FrameRate: 72
+  FixedUpdateRate: 72
+  TimeScale: 1
 --- !u!4 &810187406
 Transform:
   m_ObjectHideFlags: 0

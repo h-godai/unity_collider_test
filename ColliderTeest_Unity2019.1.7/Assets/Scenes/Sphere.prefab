@@ -30,7 +30,7 @@ Transform:
   m_GameObject: {fileID: 3212518914197958787}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 2, z: 5}
-  m_LocalScale: {x: 0.064, y: 0.064, z: 0.064}
+  m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -107,7 +107,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 112
   m_CollisionDetection: 1
 --- !u!114 &2086078234174125025
 MonoBehaviour:
@@ -122,4 +122,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   BeforeBallPrefab: {fileID: 7784161760984906887, guid: 78da4b78e02c7df4cb288784310bf854,
+    type: 3}
+  CollisionBallPrefab: {fileID: 7784161760984906887, guid: a539ea5962c91d349b820aceae700ade,
     type: 3}
