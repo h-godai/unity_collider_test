@@ -125,3 +125,7 @@ MonoBehaviour:
     type: 3}
   CollisionBallPrefab: {fileID: 7784161760984906887, guid: a539ea5962c91d349b820aceae700ade,
     type: 3}
+  StayBallPrefab: {fileID: 7784161760984906887, guid: c7a08402e2bfb934faab3695450f8994,
+    type: 3}
+  ExitBallPrefab: {fileID: 7784161760984906887, guid: d9b252d91ed53e841bc815e697fbdbce,
+    type: 3}

@@ -207,7 +207,7 @@ Transform:
   m_GameObject: {fileID: 446909990}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 2, y: 1, z: 3}
+  m_LocalScale: {x: 2, y: 1, z: 5}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 2
@@ -340,7 +340,7 @@ MonoBehaviour:
   ShotZ: -5
   ShotHeight: 0.5
   ShotAngleStart: 0.39
-  ShotAngleEnd: 0.44
+  ShotAngleEnd: 0.45
   ShotVerocity: 3
   FrameRate: 72
   FixedUpdateRate: 72
@@ -410,7 +410,7 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 60
+  field of view: 54.2
   orthographic: 0
   orthographic size: 5
   m_Depth: -1
@@ -435,13 +435,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_LocalRotation: {x: 0.14599666, y: 0, z: 0, w: 0.9892852}
-  m_LocalPosition: {x: 0, y: 2.79, z: -10}
+  m_LocalRotation: {x: 0.262947, y: 0, z: 0, w: 0.9648103}
+  m_LocalPosition: {x: 0, y: 6.1, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 16.79, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 30.49, y: 0, z: 0}
 --- !u!1 &1828125963
 GameObject:
   m_ObjectHideFlags: 0

@@ -6,6 +6,8 @@ public class ball : MonoBehaviour
 {
     public Transform BeforeBallPrefab;
     public Transform CollisionBallPrefab;
+    public Transform StayBallPrefab;
+    public Transform ExitBallPrefab;
 
     private Transform beforeBall;
     private Vector3 lastPosition = Vector3.zero;
@@ -47,5 +49,17 @@ public class ball : MonoBehaviour
                 Debug.Log($"OnCollisionEnter: {c.point} {c.normal} {c.separation}");
             }
         }
+    }
+
+    private void OnCollisionStay(Collision collision)
+    {
+        var obj = Instantiate(this.StayBallPrefab);
+        obj.transform.position = this.transform.position;
+        this.hasCollision = true;
+    }
+    private void OnCollisionExit(Collision collision)
+    {
+        var obj = Instantiate(this.ExitBallPrefab);
+        obj.transform.position = this.transform.position;
     }
 }
