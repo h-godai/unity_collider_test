@@ -9,13 +9,10 @@ public class ball : MonoBehaviour
     public Transform StayBallPrefab;
     public Transform ExitBallPrefab;
 
-    private Transform beforeBall;
-    private Vector3 lastPosition = Vector3.zero;
     private Rigidbody Rigidbody;
     private bool hasCollision = false;
     private void Awake()
     {
-        this.beforeBall = Instantiate(this.BeforeBallPrefab);
         this.Rigidbody = this.GetComponent<Rigidbody>();
     }
 
@@ -28,11 +25,15 @@ public class ball : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+    }
+
+    private void FixedUpdate()
+    {
         if (!this.hasCollision)
         {
-            this.lastPosition = this.transform.position;
+            var obj = Instantiate(this.BeforeBallPrefab);
+            obj.position = this.transform.position;
         }
-        this.beforeBall.position = this.lastPosition;
     }
 
 

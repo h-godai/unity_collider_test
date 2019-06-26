@@ -207,7 +207,7 @@ Transform:
   m_GameObject: {fileID: 446909990}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 2, y: 1, z: 5}
+  m_LocalScale: {x: 5, y: 1, z: 10}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 2
@@ -334,7 +334,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BallPrefab: {fileID: 3212518914197958808, guid: 55b7db2fc61dd6d40be3145292cf802b,
     type: 3}
-  BallCount: 150
+  BallCount: 100
   LeftLine: -10
   RightLine: 10
   ShotZ: -5
@@ -528,7 +528,7 @@ Transform:
   m_GameObject: {fileID: 1828125963}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0.5, z: 0}
-  m_LocalScale: {x: 20, y: 1, z: 0.01}
+  m_LocalScale: {x: 50, y: 1, z: 0.01}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 3
